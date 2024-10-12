@@ -6,7 +6,7 @@ const AdminLogin = ({ onLogin }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // In a real application, you would validate this against a backend
+    // Just for now using the details
     if (username === 'admin' && password === 'admin123') {
       onLogin();
     } else {
