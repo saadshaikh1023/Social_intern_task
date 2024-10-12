@@ -1,0 +1,21 @@
+{
+  "name": "social_media_task",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^6.9.0",
+    "mongoose": "^6.0.12",
+    "multer": "^1.4.3"
+  },
+  "devDependencies": {
+    "concurrently": "^6.3.0",
+    "nodemon": "^2.0.14"
+  }
+}
